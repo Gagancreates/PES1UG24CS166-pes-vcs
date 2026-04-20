@@ -243,3 +243,4 @@ int index_add(Index *index, const char *path) {
 /* index_load parses mode hash mtime size path per line */
 /* index_save sorts entries by path before writing */
 /* index_add reads file, writes blob, updates entry metadata */
+/* heap-allocate sorted copy in index_save to avoid stack overflow */
