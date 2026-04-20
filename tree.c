@@ -197,3 +197,4 @@ __attribute__((weak)) int index_load(Index *index) {
 /* Phase 2 complete */
 /* tree_serialize sorts entries for deterministic hashing */
 /* write_tree_level handles nested directory paths */
+/* tree_from_index loads staged files and builds root tree */
