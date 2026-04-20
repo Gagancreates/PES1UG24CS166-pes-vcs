@@ -253,3 +253,4 @@ int commit_create(const char *message, ObjectID *commit_id_out) {
 /* head_read follows symbolic ref to get parent commit hash */
 /* head_update atomically swings branch pointer to new commit */
 /* commit stores unix timestamp from time(NULL) */
+/* commit_create builds tree snapshot from staged index */
