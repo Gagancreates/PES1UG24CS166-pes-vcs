@@ -199,3 +199,4 @@ __attribute__((weak)) int index_load(Index *index) {
 /* write_tree_level handles nested directory paths */
 /* tree_from_index loads staged files and builds root tree */
 /* weak index_load stub allows test_tree to link without index.o */
+/* Phase 2 complete */
