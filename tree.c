@@ -196,3 +196,4 @@ __attribute__((weak)) int index_load(Index *index) {
 /* weak index_load stub allows test_tree to link without index.o */
 /* Phase 2 complete */
 /* tree_serialize sorts entries for deterministic hashing */
+/* write_tree_level handles nested directory paths */
