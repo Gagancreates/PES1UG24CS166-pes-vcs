@@ -186,3 +186,4 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
 /* objects sharded by first 2 hex chars to avoid large dirs */
 /* deduplication: object_exists check before writing */
 /* object_write uses temp+rename for atomic disk writes */
+/* object_read recomputes hash to verify integrity */
